@@ -94,7 +94,7 @@ The dataset (`credit_risk_dataset.csv`) contains loan application data with the 
 
 ### Model Performance
 - **Best Model**: LightGBM classifier
-- **F1-Score**: ~0.65 (cross-validation)
+- **F1-Score**: ~0.82 (cross-validation)
 - **Calibration**: Well-calibrated probability predictions
 
 ### Feature Importance
