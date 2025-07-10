@@ -177,21 +177,5 @@ best_nn_model = keras.models.load_model('data_models/best_nn_model.keras')
 1. **Feature Engineering**: Create additional predictive features
 2. **Advanced Models**: Try ensemble methods, neural architecture search
 3. **Calibration**: Implement Platt scaling or isotonic regression
-4. **Monitoring**: Build model drift detection
 5. **API Development**: Deploy model as REST API
 
-## Contributing
-
-1. Fork the repository
-2. Create feature branch (`git checkout -b feature/improvement`)
-3. Commit changes (`git commit -am 'Add improvement'`)
-4. Push to branch (`git push origin feature/improvement`)
-5. Create Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Contact
-
-For questions or collaborations, please reach out via GitHub issues.
