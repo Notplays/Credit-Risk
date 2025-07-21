@@ -25,6 +25,7 @@ def plot_loan_status_outliers(data, col, status_col='loan_status'):
     outliers = data[(data[col] < lower_bound) | (data[col] > upper_bound)]
 
     print(f"Upper bound: {upper_bound}")
+    print(f"Lower bound: {lower_bound}")
     print(f"Number of outliers: {len(outliers)}")
 
     # Calculate loan status percentages within outliers
